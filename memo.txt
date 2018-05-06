@@ -1,0 +1,13 @@
+実売上日 お客様の利用明細に記載される利用日です
+
+取引日時  取引が開始された日時です
+処理日時  取引に対して最後に処理を行った日時です
+
+SELECT * FROM users WHERE 1 = 1
+ AND email = :email
+ AND name = :name
+
+
+http://blog.shibayan.jp/entry/20171023/1508745447
+
+
