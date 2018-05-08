@@ -74,22 +74,20 @@ form.cmxform label.error, label.error {
         }
         </tbody>
     </table>
+<button id="add" class="btn btn-info" asp-action="Create"><span class="glyphicon glyphicon-plus"></span>Add</button>
 }
 
-<div id="pager">
-      <ul id="pagination" class="pagination-sm"></ul>
-</div>
 </form>
+
 
 <script>
 
 // jquery-tabledit
 $('#table').Tabledit({
     url: '/Movies/Update',
-    // リストアボタン 非表示
-    restoreButton: false,
     // 削除ボタン 非表示
     deleteButton: false,
+    hideIdentifier: true,
     // 列設定
     columns: {
         identifier: [0, 'id'],
